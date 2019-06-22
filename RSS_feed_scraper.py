@@ -1,46 +1,3 @@
-﻿
-#-----Statement of Authorship----------------------------------------#
-#
-#  This is an individual assessment item.  By submitting this
-#  code I agree that it represents my own work.  I am aware of
-#  the University rule that a student must not act in a manner
-#  which constitutes academic dishonesty as stated and explained
-#  in QUT's Manual of Policies and Procedures, Section C/5.3
-#  "Academic Integrity" and Section E/2.1 "Student Code of Conduct".
-#
-#    Student no: N9726471
-#    Student name: Bogdan Todor
-#
-#  NB: Files submitted without a completed copy of this statement
-#  will not be marked.  Submitted files will be subjected to
-#  software plagiarism analysis using the MoSS system
-#  (http://theory.stanford.edu/~aiken/moss/).
-#
-#--------------------------------------------------------------------#
-
-
-
-#-----Task Description-----------------------------------------------#
-#
-#  News Archivist
-#
-#  In this task you will combine your knowledge of HTMl/XML mark-up
-#  languages with your skills in Python scripting, pattern matching
-#  and Graphical User Interface development to produce a useful
-#  application for maintaining and displaying archived news or
-#  current affairs stories on a topic of your own choice.  See the
-#  instruction sheet accompanying this file for full details.
-#
-#--------------------------------------------------------------------#
-
-
-
-#-----Imported Functions---------------------------------------------#
-#
-# Below are various import statements that were used in our sample
-# solution.  You should be able to complete this assignment using
-# these functions only.
-
 # Import the function for opening a web document given its URL.
 from urllib.request import urlopen
 
@@ -76,25 +33,8 @@ from sqlite3 import *
 # Import the date and time function.
 from datetime import datetime
 
-#
-#--------------------------------------------------------------------#
-
-
-
-#-----Student's Solution---------------------------------------------#
-#
-# Put your solution at the end of this file.
-#
-
-# Name of the folder containing your archived web documents.  When
-# you submit your solution you must include the web archive along with
-# this Python program. The archive must contain one week's worth of
-# downloaded HTML/XML documents. It must NOT include any other files,
-# especially image files.
 internet_archive = 'InternetArchive'
 
-
-################ PUT YOUR SOLUTION HERE #################
 # Importing additional modules for the backend.
 import os
 import webbrowser
