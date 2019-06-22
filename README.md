@@ -1,5 +1,6 @@
-# Python_RSS_scraper
-What I learnt:
+# **Python_RSS_scraper**
+### **What I learnt:**
+
 This project integrated elements of web design, automation, database connectivity and GUI app development. From this project I learnt how to:
 * Design a logging system for user interactions using SQL and Python.
 * Scrape websites using Python, HTML and regular expressions (regex).
@@ -8,7 +9,8 @@ This project integrated elements of web design, automation, database connectivit
 * Using Python to: automate processes, interact through GUI button presses and build a basic application. 
 
 
-Project details:
+### **Project details:**
+
 RSS feed scraper with GUI and integrated event logger
 Run the program through IDLE using F5 or run.
 Images in repo are used for the design of the GUI.
